@@ -13,7 +13,9 @@ public class MapApiActivity extends MapActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
         mapView = (MapView) findViewById(R.id.map_view);
+        
         mapView.setBuiltInZoomControls(true);
     }
 
